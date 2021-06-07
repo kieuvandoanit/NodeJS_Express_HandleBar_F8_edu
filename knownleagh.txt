@@ -1,0 +1,12 @@
+
+
+
+
+
+
+====================Router & controller =========================
+1) Cách truyền dữ liệu
+    a) query parameter: abc/cd?id=1&key=3
+        - Sẽ lấy dữ liệu bằng req.query.name
+    b) Có cashc lấy dữ liệu nữa là rep.body.
+    c) có cách nữa là : req.params.slug
